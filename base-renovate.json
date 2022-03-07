@@ -9,11 +9,6 @@
     "rangeStrategy": "bump",
     "packageRules": [
       {
-        "matchUpdateTypes": ["minor", "patch"],
-        "matchCurrentVersion": "!/^0/",
-        "automerge": true
-      },
-      {
         "matchPackagePatterns": ["prisma", "@prisma"],
         "groupName": "Prisma Dependencies"
       },

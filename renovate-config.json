@@ -15,6 +15,18 @@
       {
         "matchPackagePatterns": ["@kingsworld"],
         "groupName": "King's World Dependencies"
+      },
+      {
+        "matchPackagePatterns": ["next", "@next"],
+        "groupName": "Next.js Dependencies"
+      },
+      {
+        "matchPackagePatterns": ["tailwindcss", "@tailwindcss"],
+        "groupName": "Tailwind Dependencies"
+      },
+      {
+        "matchPackagePatterns": ["@chakra-ui"],
+        "groupName": "Chakra UI Dependencies"
       }
     ]
   }

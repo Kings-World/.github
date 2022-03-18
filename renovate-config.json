@@ -21,6 +21,10 @@
         "groupName": "Next.js Dependencies"
       },
       {
+        "matchPackagePatterns": ["react"],
+        "groupName": "React Dependencies"
+      },
+      {
         "matchPackagePatterns": ["tailwindcss", "@tailwindcss"],
         "groupName": "Tailwind Dependencies"
       },

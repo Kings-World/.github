@@ -9,27 +9,27 @@
     "rangeStrategy": "bump",
     "packageRules": [
       {
-        "matchPackagePatterns": ["prisma", "@prisma"],
+        "matchPackagePatterns": ["^@?prisma"],
         "groupName": "Prisma Dependencies"
       },
       {
-        "matchPackagePatterns": ["@kingsworld"],
+        "matchPackagePatterns": ["^@kingsworld"],
         "groupName": "King's World Dependencies"
       },
       {
-        "matchPackagePatterns": ["next", "@next"],
+        "matchPackagePatterns": ["^@?next"],
         "groupName": "Next.js Dependencies"
       },
       {
-        "matchPackagePatterns": ["react"],
+        "matchPackagePatterns": ["^react"],
         "groupName": "React Dependencies"
       },
       {
-        "matchPackagePatterns": ["tailwindcss", "@tailwindcss"],
+        "matchPackagePatterns": ["^@?tailwindcss"],
         "groupName": "Tailwind Dependencies"
       },
       {
-        "matchPackagePatterns": ["@chakra-ui"],
+        "matchPackagePatterns": ["^@chakra-ui"],
         "groupName": "Chakra UI Dependencies"
       }
     ]

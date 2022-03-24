@@ -5,6 +5,7 @@
   "labels": ["dependencies"],
   "commitMessagePrefix": "⬆️",
   "automergeStrategy": "squash",
+  "dependencyDashboard": false,
   "npm": {
     "rangeStrategy": "bump",
     "packageRules": [

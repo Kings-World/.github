@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", "helpers:pinGitHubActionDigests", ":disableRateLimiting", "group:allNonMajor"],
+  "schedule": ["before 2am on Sunday"],
   "labels": ["dependencies"],
   "commitMessagePrefix": "⬆️",
   "automergeStrategy": "squash",
-  "dependencyDashboard": true,
   "npm": {
     "rangeStrategy": "bump",
     "packageRules": [

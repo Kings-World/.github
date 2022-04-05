@@ -10,6 +10,11 @@
     "rangeStrategy": "bump",
     "packageRules": [
       {
+        "matchUpdateTypes": ["minor", "patch"],
+        "matchCurrentVersion": "!/^0/",
+        "automerge": true
+      },
+      {
         "matchPackagePatterns": ["^@?prisma"],
         "groupName": "Prisma Dependencies"
       },
@@ -32,6 +37,16 @@
       {
         "matchPackagePatterns": ["^@chakra-ui"],
         "groupName": "Chakra UI Dependencies"
+      }
+    ]
+  },
+  "golang": {
+    "rangeStrategy": "bump",
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["minor", "patch"],
+        "matchCurrentVersion": "!/^0/",
+        "automerge": true
       }
     ]
   }

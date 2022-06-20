@@ -13,30 +13,6 @@
         "matchUpdateTypes": ["minor", "patch"],
         "matchCurrentVersion": "!/^0/",
         "automerge": true
-      },
-      {
-        "matchPackagePatterns": ["^@?prisma"],
-        "groupName": "Prisma Dependencies"
-      },
-      {
-        "matchPackagePatterns": ["^@kingsworld"],
-        "groupName": "King's World Dependencies"
-      },
-      {
-        "matchPackagePatterns": ["^@?next"],
-        "groupName": "Next.js Dependencies"
-      },
-      {
-        "matchPackagePatterns": ["^react"],
-        "groupName": "React Dependencies"
-      },
-      {
-        "matchPackagePatterns": ["^@?tailwindcss"],
-        "groupName": "Tailwind Dependencies"
-      },
-      {
-        "matchPackagePatterns": ["^@chakra-ui"],
-        "groupName": "Chakra UI Dependencies"
       }
     ]
   },

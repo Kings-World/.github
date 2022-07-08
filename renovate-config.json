@@ -11,6 +11,5 @@
   "labels": ["dependencies"],
   "commitMessagePrefix": "⬆️",
   "automergeStrategy": "squash",
-  "dependencyDashboard": false,
-  "automergeType": "branch"
+  "dependencyDashboard": false
 }

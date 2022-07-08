@@ -1,29 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", "helpers:pinGitHubActionDigests", "group:allNonMajor"],
-  "schedule": ["before 2am on Sunday"],
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    "schedule:nonOfficeHours",
+    ":automergeMinor",
+    ":gitSignOff"
+  ],
   "labels": ["dependencies"],
   "commitMessagePrefix": "⬆️",
   "automergeStrategy": "squash",
   "dependencyDashboard": false,
-  "npm": {
-    "rangeStrategy": "bump",
-    "packageRules": [
-      {
-        "matchUpdateTypes": ["minor", "patch"],
-        "matchCurrentVersion": "!/^0/",
-        "automerge": true
-      }
-    ]
-  },
-  "golang": {
-    "rangeStrategy": "bump",
-    "packageRules": [
-      {
-        "matchUpdateTypes": ["minor", "patch"],
-        "matchCurrentVersion": "!/^0/",
-        "automerge": true
-      }
-    ]
-  }
+  "automergeType": "branch"
 }

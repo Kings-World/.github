@@ -5,7 +5,8 @@
     "group:allNonMajor",
     "schedule:nonOfficeHours",
     ":automergeMinor",
-    ":gitSignOff"
+    ":gitSignOff",
+    ":preserveSemverRanges"
   ],
   "labels": ["dependencies"],
   "commitMessagePrefix": "⬆️",

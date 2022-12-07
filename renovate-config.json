@@ -6,10 +6,10 @@
     "schedule:nonOfficeHours",
     ":automergeMinor",
     ":gitSignOff",
-    ":preserveSemverRanges"
+    ":preserveSemverRanges",
+    ":semanticCommits"
   ],
   "labels": ["dependencies"],
-  "commitMessagePrefix": "⬆️",
   "automergeStrategy": "squash",
   "dependencyDashboard": false
 }

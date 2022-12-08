@@ -7,7 +7,8 @@
     ":automergeMinor",
     ":gitSignOff",
     ":preserveSemverRanges",
-    ":semanticCommits"
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)"
   ],
   "labels": ["dependencies"],
   "automergeStrategy": "squash",

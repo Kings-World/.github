@@ -3,7 +3,7 @@
     "extends": [
         "config:recommended",
         "group:allNonMajor",
-        "schedule:nonOfficeHours",
+        "schedule:weekly",
         ":automergeMinor",
         ":gitSignOff",
         ":preserveSemverRanges",
@@ -12,5 +12,8 @@
     ],
     "labels": ["dependencies"],
     "automergeStrategy": "squash",
-    "dependencyDashboard": false
+    "automergeType": "pr",
+    "dependencyDashboard": false,
+    "postUpdateOptions": ["yarnDedupeHighest"],
+    "platformAutomerge": true
 }

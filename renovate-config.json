@@ -7,7 +7,6 @@
         ":gitSignOff",
         ":semanticCommits",
         ":semanticCommitTypeAll(chore)",
-        ":maintainLockFilesMonthly",
         ":enableVulnerabilityAlerts"
     ],
     "labels": ["dependencies"],

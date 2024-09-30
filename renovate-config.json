@@ -5,15 +5,13 @@
         "group:allNonMajor",
         ":automergeMinor",
         ":gitSignOff",
-        ":semanticCommits",
-        ":semanticCommitTypeAll(chore)",
-        ":enableVulnerabilityAlerts"
+        ":enableVulnerabilityAlerts",
+        ":maintainLockFilesMonthly"
     ],
     "labels": ["dependencies"],
     "schedule": ["before 12pm on Sunday"],
     "automergeStrategy": "squash",
     "automergeType": "pr",
-    "dependencyDashboard": false,
     "platformAutomerge": true,
     "npm": {
         "postUpdateOptions": ["yarnDedupeHighest"],

@@ -5,7 +5,6 @@
         "group:allNonMajor",
         ":automergeMinor",
         ":gitSignOff",
-        ":enableVulnerabilityAlerts",
         ":maintainLockFilesMonthly"
     ],
     "labels": ["dependencies"],
@@ -16,5 +15,13 @@
     "npm": {
         "postUpdateOptions": ["yarnDedupeHighest"],
         "rangeStrategy": "bump"
+    },
+    "osvVulnerabilityAlerts": true,
+    "vulnerabilityAlerts": {
+        "groupName": "vulnerability alerts",
+        "schedule": ["before 4am"],
+        "enabled": true,
+        "labels": ["security"],
+        "automerge": true
     }
 }

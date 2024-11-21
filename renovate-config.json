@@ -19,7 +19,7 @@
     "osvVulnerabilityAlerts": true,
     "vulnerabilityAlerts": {
         "groupName": "vulnerability alerts",
-        "schedule": ["before 4am"],
+        "schedule": ["at any time"],
         "enabled": true,
         "labels": ["security"],
         "automerge": true

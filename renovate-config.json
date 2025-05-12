@@ -4,8 +4,7 @@
         "config:recommended",
         "group:allNonMajor",
         ":automergeMinor",
-        ":gitSignOff",
-        ":maintainLockFilesMonthly"
+        ":gitSignOff"
     ],
     "labels": ["dependencies"],
     "schedule": ["before 12pm on Sunday"],

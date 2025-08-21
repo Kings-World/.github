@@ -5,6 +5,7 @@
         "group:allNonMajor",
         "helpers:pinGitHubActionDigests",
         ":automergeMinor",
+        ":configMigration",
         ":gitSignOff"
     ],
     "labels": ["dependencies"],

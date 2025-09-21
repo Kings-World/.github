@@ -2,12 +2,14 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
+        "abandonments:recommended",
         "group:allNonMajor",
         "helpers:pinGitHubActionDigests",
         ":automergeMinor",
         ":configMigration",
         ":gitSignOff"
     ],
+    "assignees": ["SerenModz21"],
     "labels": ["dependencies"],
     "schedule": ["before 12pm on Sunday"],
     "automergeStrategy": "squash",

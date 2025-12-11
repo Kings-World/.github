@@ -3,7 +3,6 @@
     "extends": [
         "config:recommended",
         "abandonments:recommended",
-        "group:allNonMajor",
         "helpers:pinGitHubActionDigests",
         ":automergeMinor",
         ":configMigration",
@@ -11,7 +10,7 @@
     ],
     "assignees": ["SerenModz21"],
     "labels": ["dependencies"],
-    "schedule": ["before 12pm on Sunday"],
+    "schedule": ["* * * * 0,6"],
     "automergeStrategy": "squash",
     "automergeType": "pr",
     "platformAutomerge": true,

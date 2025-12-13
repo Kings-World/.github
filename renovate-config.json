@@ -4,6 +4,7 @@
         "config:recommended",
         "abandonments:recommended",
         "helpers:pinGitHubActionDigests",
+        "security:minimumReleaseAgeNpm",
         ":automergeMinor",
         ":configMigration",
         ":gitSignOff"

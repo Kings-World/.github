@@ -3,6 +3,7 @@
     "extends": [
         "config:recommended",
         "abandonments:recommended",
+        "group:allNonMajor",
         "helpers:pinGitHubActionDigests",
         "security:minimumReleaseAgeNpm",
         ":automergeMinor",
@@ -26,5 +27,11 @@
         "enabled": true,
         "labels": ["security"],
         "automerge": true
+    },
+    "packageRules": {
+        "groupName": "TypeScript",
+        "groupSlug": "typescript",
+        "matchDatasources": ["npm"],
+        "matchPackageNames": ["typescript"]
     }
 }

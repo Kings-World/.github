@@ -30,7 +30,6 @@
     },
     "packageRules": {
         "groupName": "TypeScript",
-        "groupSlug": "typescript",
         "matchDatasources": ["npm"],
         "matchPackageNames": ["typescript"]
     }

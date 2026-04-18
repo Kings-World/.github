@@ -6,6 +6,7 @@
         "group:allNonMajor",
         "helpers:pinGitHubActionDigests",
         "security:minimumReleaseAgeNpm",
+        "customManagers:biomeVersions",
         ":automergeMinor",
         ":configMigration",
         ":gitSignOff"

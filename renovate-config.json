@@ -1,14 +1,10 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:recommended",
-        "abandonments:recommended",
+        "config:best-practices",
         "group:allNonMajor",
-        "helpers:pinGitHubActionDigests",
-        "security:minimumReleaseAgeNpm",
         "customManagers:biomeVersions",
         ":automergeMinor",
-        ":configMigration",
         ":gitSignOff"
     ],
     "assignees": ["SerenModz21"],

@@ -24,10 +24,5 @@
         "enabled": true,
         "labels": ["security"],
         "automerge": true
-    },
-    "packageRules": {
-        "groupName": "TypeScript",
-        "matchDatasources": ["npm"],
-        "matchPackageNames": ["typescript"]
     }
 }

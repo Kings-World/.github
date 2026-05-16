@@ -14,10 +14,7 @@
     "automergeStrategy": "squash",
     "automergeType": "pr",
     "platformAutomerge": true,
-    "npm": {
-        "postUpdateOptions": ["yarnDedupeHighest"],
-        "rangeStrategy": "bump"
-    },
+    "postUpdateOptions": ["yarnDedupeHighest"],
     "osvVulnerabilityAlerts": true,
     "vulnerabilityAlerts": {
         "groupName": "vulnerability alerts",

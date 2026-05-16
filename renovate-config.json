@@ -7,7 +7,6 @@
         ":automergeMinor",
         ":gitSignOff"
     ],
-    "ignorePresets": ["docker:pinDigests"],
     "assignees": ["SerenModz21"],
     "labels": ["dependencies"],
     "schedule": ["* * * * 0,6"],

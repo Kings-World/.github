@@ -5,7 +5,8 @@
         "group:allNonMajor",
         "customManagers:biomeVersions",
         ":automergeMinor",
-        ":gitSignOff"
+        ":gitSignOff",
+        ":maintainLockFilesMonthly"
     ],
     "reviewers": ["SerenModz21"],
     "assignees": ["SerenModz21"],

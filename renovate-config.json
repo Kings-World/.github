@@ -24,7 +24,7 @@
         "groupName": "vulnerability alerts",
         "schedule": ["at any time"],
         "enabled": true,
-        "labels": ["security"],
+        "addLabels": ["security"],
         "automerge": true
     }
 }

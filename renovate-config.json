@@ -3,6 +3,7 @@
     "extends": [
         "config:best-practices",
         "group:allNonMajor",
+        "group:allDigest",
         "customManagers:biomeVersions",
         ":automergeMinor",
         ":gitSignOff",

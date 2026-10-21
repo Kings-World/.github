@@ -17,7 +17,7 @@
     "automergeType": "pr",
     "platformAutomerge": true,
     "npm": {
-        "postUpdateOptions": ["yarnDedupeHighest"],
+        "postUpdateOptions": ["yarnDedupeHighest", "pnpmDedupe"],
         "rangeStrategy": "bump"
     },
     "osvVulnerabilityAlerts": true,
